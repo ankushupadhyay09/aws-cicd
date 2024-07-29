@@ -3,7 +3,7 @@ FROM openjdk:17
 
 WORKDIR /app
 
-COPY ./target/course-api.jar /app
+COPY ./build/libs/course-api.jar /app
 
 EXPOSE 8080
 
