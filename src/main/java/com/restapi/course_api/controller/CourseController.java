@@ -18,6 +18,7 @@ public class CourseController {
 
     @GetMapping("/courses")
     public List<Course> getAllCourses() {
+        
         return courseList;
     }
 
