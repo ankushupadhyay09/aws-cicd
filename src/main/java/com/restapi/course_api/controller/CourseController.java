@@ -18,6 +18,7 @@ public class CourseController {
 
     @GetMapping("/courses")
     public List<Course> getAllCourses() {
+          System.out.println("========Merged into main==========");
          return courseList;
     }
 
