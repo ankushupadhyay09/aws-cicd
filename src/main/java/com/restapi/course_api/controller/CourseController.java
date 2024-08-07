@@ -18,8 +18,6 @@ public class CourseController {
 
     @GetMapping("/courses")
     public List<Course> getAllCourses() {
-        System.out.println("====just checking pipeline==done==");
-        
          return courseList;
     }
 
