@@ -18,7 +18,7 @@ public class CourseController {
 
     @GetMapping("/courses")
     public List<Course> getAllCourses() {
-        System.out.println("===ree=12354=======just checking pipeline==done==");
+        System.out.println("===ree=12354====ggg===just checking pipeline==done==");
         
          return courseList;
     }
