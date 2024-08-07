@@ -20,7 +20,7 @@ public class CourseController {
     public List<Course> getAllCourses() {
         System.out.println("===ree=12354=======just checking pipeline====")
         
-        return courseList;
+         courseList;
     }
 
     @PostMapping("/courses")
